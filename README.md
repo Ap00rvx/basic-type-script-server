@@ -26,8 +26,8 @@ A simple **Node.js** server built with **TypeScript** and Express.
 ## 🛠️ Setup & Installation
 ### 1️⃣ Clone the Repository
 ```sh
-git clone https://github.com/your-username/type_script_server.git
-cd type_script_server
+git clone https://github.com/Ap00rvx/basic-type-script-server.git
+cd basic-type-script-server
 ```
 
 ### 2️⃣ Install Dependencies
