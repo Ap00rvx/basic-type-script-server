@@ -6,7 +6,7 @@ dotenv.config();
 const salt:number=10;  
 
 
-const JWT_SECRET: string = process.env.JWT_SECRET; 
+const JWT_SECRET: string | undefined = process.env.JWT_SECRET;  
 if(!JWT_SECRET) {
     console.log("Please provide a jwt secret");
     process.exit(1);

@@ -1,20 +1,13 @@
 {
     "compilerOptions": {
-        "target": "es5",
-        "module": "NodeNext",
-        "moduleResolution": "NodeNext",
-        "baseUrl": "src",
+        "target": "ES6",
+        "module": "CommonJS",
+        "moduleResolution": "Node",
         "outDir": "./dist",
-        "sourceMap": false,
-        "removeComments": true,
-        "noImplicitAny": true,
-        "pretty": true,
-
-
+        "rootDir": "src",
+        "strict": true,
+        "esModuleInterop": true
     },
-    "include": [
-        "src/**/*"
-    ],
+    "include": ["src/**/*"],
     "exclude": ["node_modules"]
-
 }
