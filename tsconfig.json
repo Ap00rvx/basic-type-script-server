@@ -4,12 +4,12 @@
         "module": "NodeNext",
         "moduleResolution": "NodeNext",
         "baseUrl": "src",
-        "outDir": "dist",
+        "outDir": "./dist",
         "sourceMap": false,
         "removeComments": true,
         "noImplicitAny": true,
         "pretty": true,
-        
+
 
     },
     "include": [
